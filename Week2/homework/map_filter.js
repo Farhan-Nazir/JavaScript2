@@ -8,10 +8,4 @@ for (let i = 0; i < numbers.length; i++) {
   }
 } */
 // Add your code here
-const doubleNumbers = numbers.filter(doubleNumber => {
-  if (doubleNumber % 2 === 0) {
-    return doubleNumber;
-  }
-});
-
-console.log(doubleNumbers);
+console.log(numbers.filter(doubleNumber => doubleNumber % 2 === 0));
