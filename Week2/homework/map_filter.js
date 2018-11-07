@@ -8,4 +8,5 @@ for (let i = 0; i < numbers.length; i++) {
   }
 } */
 // Add your code here
-console.log(numbers.filter(doubleNumber => doubleNumber % 2 === 0));
+const res = numbers.filter(doubleNumber => doubleNumber % 2 !== 0);
+console.log(res.map(i => i * 2));
